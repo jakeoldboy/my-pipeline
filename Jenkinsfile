@@ -1,6 +1,6 @@
 #!groovy
 
-node('linux') {
+node('master') {
 
     stage('Clean Workspace') {
         // Delete workspace
